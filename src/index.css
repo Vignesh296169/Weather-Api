@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./weather2.webp");
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-color: rgb(183, 237, 219);
+box-sizing: border-box;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  text-align: center;
+  color: hsl(208, 100%, 97%,0.8);
 }

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Form from './Component/Form';
+import Api from './Api';
+import { useState } from 'react';
+import Div from './Component/Div';
 function App() {
+  const[init,setinit]=useState('')
+  const saveHandler=async(signal)=>{
+      const rest=await Api(signal)
+        setinit(rest);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        
+        <Form onSave={saveHandler}/>
+        < div className='last'>
+        <Div  title={init}/></div>
+        <h6>-Vignesh</h6>
     </div>
   );
 }

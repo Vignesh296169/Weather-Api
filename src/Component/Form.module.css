@@ -1,0 +1,6 @@
+.toppier{
+    line-height: 2;
+}
+button:active{
+    transform:scale(0.5);
+}

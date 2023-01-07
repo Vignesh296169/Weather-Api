@@ -6,7 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.last{
+ margin-top: 2rem;
+ padding: 2px;
+ color: antiquewhite;
+ font-size:larger;
+ font-weight: 500;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
