@@ -1,5 +1,6 @@
-     Weather Api(from OpenWeathermap.com):  https://regal-muffin-3dd712.netlify.app/
-
+     Weather Api(from OpenWeathermap.com): 
+   
+      https://regal-muffin-3dd712.netlify.app/
 
 
 # Getting Started with Create React App
