@@ -1,4 +1,4 @@
-     Weather Api(from OpenWeathermap.com): 
+     Weather Api(from OpenWeathermap.com) 
    
       https://regal-muffin-3dd712.netlify.app/
 
